@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background: #f4f4f4;
+}
+* {
+    font-family: "Times New Roman", Times, serif;
 }
 
 header {
@@ -68,6 +70,16 @@ nav a:hover {
     height: 120px;
     object-fit: contain;
     margin: 0 auto;
+}
+
+.note {
+    text-align: center;
+    padding: 12px 0;
+    background-color: #fff4cc; 
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 90%;
 }
 
 footer {
